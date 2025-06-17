@@ -88,12 +88,12 @@ main{
 
 #formulario > form > p.campo > input{
     font-size: 1em;
-    width: 70%;
+    width: 80%;
     height: 80%;
     border: none;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-13px);
 }
 
 #formulario > form > p > span{
