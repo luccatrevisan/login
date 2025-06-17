@@ -12,12 +12,12 @@ grandes telas: 1200 pra cima
     }
 
     #login{
-        width: 90vw;
+        width: 90%;
     }
 
     #login > #imagem{
         float: left;
-        height: 100vh;
+        height: 100%;
         width: 30%;
     }
 
