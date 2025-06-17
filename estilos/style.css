@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /*mobile first*/
 
+/*
+paleta de cores
+    #49a09d (verde azulado)
+    #5f2c82 (lilás)
+*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
