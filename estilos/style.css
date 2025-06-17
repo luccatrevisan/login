@@ -79,22 +79,28 @@ main{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    border: 2px solid #c77304;
 }
 
 #formulario > form > p > label{
     display: none;
 }
 
-#formulario > form > p > input{
-    height: 30px;
-    width: 80%;
-    margin-top: 5px;
-    border-radius: 5px;
+#formulario > form > p.campo > input{
+    font-size: 1em;
+    width: 70%;
+    height: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
 }
 
 #formulario > form > p > span{
-    text-align: left;
-    font-size: 1em;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    color: #ffd195;
 }
 
 form > p > input[type=submit]{
@@ -123,7 +129,7 @@ form > p > .botao{
     margin-top: 5px;
     background-color: white;
     border: 1px solid #c77304;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     color: #c77304;
 }
